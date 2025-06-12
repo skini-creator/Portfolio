@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bogha Mondjo Algrin - Développeur Back-end</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Bogha Mondjo</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Bogha Mondjo Algrin</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Développeur Back-end</h2>
+                    <p class="hero-description">
+                        "On reste concentré pour le développement de vos sites et applications web et web mobile."
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Formations</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">∞</span>
+                            <span class="stat-label">Motivation</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                        <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="profil-portfolio.jpg" alt="Photo de profil de Bogha Mondjo Algrin">
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-element" data-tech="Node.js">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="floating-element" data-tech="MongoDB">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="floating-element" data-tech="API">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À propos de moi</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-main">
+                    <div class="about-intro">
+                        <h3>Mon Parcours</h3>
+                        <p>
+                            J'ai commencé mon parcours à l'<strong>Université des Sciences et Techniques de Masuku</strong> en Faculté de Sciences en Math Informatique. Ensuite, j'ai suivi une formation en réseau à l'<strong>INPTIC</strong>. Aujourd'hui, je me suis spécialisé dans le développement web et web mobile côté back-end, avec également des compétences en front-end acquises à l'<strong>École 241</strong>.
+                        </p>
+                    </div>
+                    
+                    <div class="about-passion">
+                        <h3>Ma Passion</h3>
+                        <p>
+                            Dans le développement web, j'accorde un intérêt particulier à la partie serveur des sites web et à la création des API, d'où mon choix pour le back-end. J'aime résoudre des problèmes complexes et créer des solutions robustes et scalables.
+                        </p>
+                    </div>
+
+                    <div class="about-education">
+                        <h3>Formation</h3>
+                        <div class="education-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4>École 241</h4>
+                                    <p>Développement Web & Web Mobile</p>
+                                    <span class="timeline-date">Récent</span>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4>INPTIC</h4>
+                                    <p>Formation en Réseau</p>
+                                    <span class="timeline-date">Formation</span>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h4>Université des Sciences et Techniques de Masuku</h4>
+                                    <p>Faculté de Sciences - Math Informatique</p>
+                                    <span class="timeline-date">Études</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Résolution de problèmes</h3>
+                        <p>Approche analytique et créative pour surmonter les défis techniques complexes</p>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-target"></i>
+                        <h3>Objectifs professionnels</h3>
+                        <p>Développement de projets freelance et création de solutions sur mesure</p>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-server"></i>
+                        <h3>Spécialisation Back-end</h3>
+                        <p>Expertise en développement serveur et création d'APIs performantes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes Compétences Techniques</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Mon expertise au service de vos projets</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category description-style">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Langages de Programmation</h3>
+                    </div>
+                    <div class="skill-description-content">
+                        <p>
+                            Je suis principalement spécialisé en <strong>Node.js</strong> (JavaScript), un environnement d'exécution JavaScript côté serveur qui me permet de construire des applications back-end robustes et performantes. Ma maîtrise de JavaScript s'étend au-delà du simple codage, incluant les bonnes pratiques et les modèles de conception. J'ai également des bases solides en <strong>HTML</strong> et <strong>CSS</strong> pour la structure et le stylisme des interfaces.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skill-category description-style">
+                    <div class="category-header">
+                        <i class="fas fa-desktop"></i>
+                        <h3>Frameworks & Bibliothèques Front-end (Bases)</h3>
+                    </div>
+                    <div class="skill-description-content">
+                        <p>
+                            Bien que ma spécialisation soit le back-end, j'ai acquis des bases en <strong>React.js</strong> pour la création d'interfaces utilisateur interactives et modernes, ainsi qu'en <strong>Next.js</strong> pour les applications web côté serveur (SSR) et la génération de sites statiques (SSG). Ces compétences me permettent de mieux comprendre les besoins du front-end et d'optimiser l'intégration.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skill-category description-style">
+                    <div class="category-header">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>Frameworks & Bibliothèques Back-end</h3>
+                    </div>
+                    <div class="skill-description-content">
+                        <p>
+                            Mon framework de prédilection pour le développement d'APIs et d'applications web est <strong>Express.js</strong>. J'utilise Express.js pour concevoir des architectures back-end légères, efficaces et scalables, capables de gérer diverses requêtes et logiques métier.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skill-category description-style">
+                    <div class="category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Bases de Données</h3>
+                    </div>
+                    <div class="skill-description-content">
+                        <p>
+                            J'ai une solide expérience avec les bases de données NoSQL, notamment <strong>MongoDB</strong>, pour la gestion de données flexibles et performantes. Je suis également à l'aise avec les bases de données relationnelles comme <strong>SQLite</strong>, utilisées pour des besoins de stockage locaux ou des applications plus légères.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skill-category description-style">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Outils & Plateformes Cloud</h3>
+                    </div>
+                    <div class="skill-description-content">
+                        <p>
+                            La gestion de versions est essentielle, c'est pourquoi je maîtrise <strong>Git et GitHub</strong> pour la collaboration et le suivi de projets. Pour le test et la conception d'APIs, j'utilise fréquemment <strong>Postman</strong>, garantissant la fiabilité et la conformité des endpoints.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skill-category description-style">
+                    <div class="category-header">
+                        <i class="fas fa-cogs"></i>
+                        <h3>Concepts & Méthodologies</h3>
+                    </div>
+                    <div class="skill-description-content">
+                        <p>
+                            Je suis expert dans la conception et l'implémentation d'<strong>APIs RESTful</strong>, permettant une communication efficace entre le front-end et le back-end. Ma compréhension des principes REST assure la création d'interfaces cohérentes, stateless et bien structurées.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes Projets</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Découvrez mes réalisations en développement web</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image-apk-meteo.png" alt="Image de l'application de Météo">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Application de Météo</h3>
+                        <p class="project-description">
+                            Développement d'une application web intuitive permettant d'obtenir les conditions météorologiques en temps réel pour n'importe quelle ville. L'utilisateur saisit le nom de la ville dans une barre de recherche et l'application affiche instantanément les données météo pertinentes (température, humidité, vent, etc.) grâce à l'intégration d'une API externe.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API REST (Meteo Concept)</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://meteo-app-cyan.vercel.app/" target="_blank" class="btn-project-link">
+                                <i class="fas fa-external-link-alt"></i> Voir en ligne
+                            </a>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge completed">Terminé</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card empty-project">
+                    <div class="project-image">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Projet 2</h3>
+                        <p class="project-description">
+                            <em>À compléter prochainement...</em><br>
+                            Ce projet mettra en avant mes compétences en gestion de bases de données et API RESTful.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">API REST</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge coming-soon">Bientôt disponible</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card empty-project">
+                    <div class="project-image">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Projet 3</h3>
+                        <p class="project-description">
+                            <em>À compléter prochainement...</em><br>
+                            Ce projet illustrera mes capacités en architecture serveur et optimisation des performances.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">API</span>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge coming-soon">Bientôt disponible</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-note">
+                <p><i class="fas fa-info-circle"></i> Plus de projets seront ajoutés au fur et à mesure de leur développement.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">N'hésitez pas à me contacter pour toute opportunité ou question !</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:bogha93@gmail.com">bogha93@gmail.com</a>
+                            <p>Réponse rapide garantie</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/skini-creator" target="_blank">skini-creator</a>
+                            <p>Découvrez mes projets et contributions</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/votre-profil" target="_blank">Profil à compléter</a>
+                            <p>Connectons-nous professionnellement</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-header">
+                        <h3>Envoyez-moi un message</h3>
+                        <p>Je vous répondrai dans les plus brefs délais</p>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Sujet" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Envoyer le message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>Bogha Mondjo Algrin</h3>
+                    <p>Développeur Back-end passionné</p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <a href="mailto:bogha93@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="https://github.com/skini-creator" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/votre-profil" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bogha Mondjo Algrin. On reste concentré.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
